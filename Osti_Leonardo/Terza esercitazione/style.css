@@ -1,0 +1,26 @@
+.navBar {
+    background-color: rgb(224, 224, 224);
+}
+button {
+    border: none;
+    padding: 3%;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.container{
+    height: 100%;
+    padding: 5%;
+    background-color: rgb(226, 226, 226);
+}
+input[type = "password"],input[type = "text"],input[type = "submit"]{
+    width: 100%;
+    padding: 2.5%;
+    margin: 2.5%;
+    box-sizing: border-box;
+}
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
