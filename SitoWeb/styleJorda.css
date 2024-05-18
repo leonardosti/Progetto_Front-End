@@ -1,0 +1,88 @@
+body{font-family: 'Inter', sans-serif;font-size: 16px;}
+a{text-decoration: none;}
+
+/*- header -*/
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    background-color: white;
+}
+
+.nav-bar{width: 100%;}
+.nav-bar ul
+{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: larger;
+}
+.nav-bar a{
+    color: black; 
+    font-size: 125%;
+}
+
+.log{
+    display: flex;
+    width: 20%;
+}
+.log button{
+    border: solid;
+    background-color: white;
+    color: black;
+    width: 50%;
+    border-radius: 10%;
+    font-size: medium;
+}
+
+.title{
+    padding: 5%;
+    text-align: center;
+}
+.title h1{
+    font-weight: 900%;
+    color: white;
+    font-size:750%;
+}
+/*- conteuto -*/
+.content{
+    width: 100%;
+}
+
+.storia{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.storia h1{
+    padding: 2.5%;
+    width: 30%;
+    font-size: 300%;
+}
+.storia p{
+    text-align: justify;
+    padding: 2.5%;
+    width: 70%;
+    font-size: 200%;
+}
+
+/*- footer -*/
+.footer{
+    text-align: center;
+    background-color: rgb(77, 83, 113);
+    color: white;
+}
+
+
+
+
+
+
+
