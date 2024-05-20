@@ -1,0 +1,42 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 10% auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10%;
+    padding: 2.5%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 60%;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
