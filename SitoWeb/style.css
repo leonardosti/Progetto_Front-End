@@ -36,7 +36,7 @@ body {
   font-weight: bolder;
 }
 
-.log .button {
+.button {
   text-decoration: none;
   font-weight: bolder;
   padding: 10px 20px;
@@ -45,7 +45,7 @@ body {
   border: solid 2px #000;
   border-radius: 5px;
 }
-.log .button:hover {
+.button:hover {
   background-color: #000;
   color: #fff;
 }
@@ -55,7 +55,7 @@ body {
 .titolo {
   position: relative;
   text-align: center;
-  padding: 100px 20px;
+  padding: 10%;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('immagini/sfondo.png') center center;
   background-size: cover;
   color: #fff;
@@ -73,26 +73,19 @@ body {
   text-align: center;
   background-color: #fff;
 }
-
 .sneaker {
   display: inline-block;
   margin: 5%;
   text-align: center;
 }
-
 .sneaker img {
   width: 200px;
   height: auto;
   border-radius: 10px;
 }
-
 .sneaker p {
   margin-top: 15%;
   font-weight: bold;
-}
-
-@media (max-width: 800px) {
-  .sneakers{display: block;}
 }
 
 /* Recensioni */
@@ -100,13 +93,22 @@ body {
 .recensioni {
   background-color: #f0f0f0;
 }
-
-.recensioni h2 {
+.top{
   text-align: center;
-  margin-bottom: 30px;
-  font-size: 2em;
+  align-items: center;
+  display: flex;
 }
-
+.recensioni .top h1 {
+  text-align: center;
+  padding-top: 2.5%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.recensioni .top a {
+  text-align: center;
+  margin-bottom: 5%;
+  width: 30%;
+}
 .commento {
   background-color: #fff;
   padding: 20px;
