@@ -1,7 +1,8 @@
-const buttons = document.body.querySelectorAll('button');
+const logBtn = document.getElementById('button1');
+const commentBtn = document.getElementById('button2');
 let cont = 0;
 
-buttons[0].addEventListener('click', function () {
+logBtn.addEventListener('click', function () {
     const width = 600;
     const height = 600;
     const left = (screen.width - width) / 2;
@@ -47,13 +48,13 @@ buttons[0].addEventListener('click', function () {
     form.addEventListener("submit", function(event) {
         event.preventDefault();
         newWindow.close();
-        buttons[0].disabled = true;
-        buttons[0].style.display = 'none';
+        logBtn.disabled = true;
+        logBtn.style.display = 'none';
         cont++;
     });
 });
 
-buttons[1].addEventListener('click', function () {
+commentBtn.addEventListener('click', function () {
         if (cont == 0)
         {
             alert("Per aggiungere delle recensioni devi prima fare il LogIn!");
@@ -66,7 +67,7 @@ buttons[1].addEventListener('click', function () {
         
         let styleCSS = newWindow.document.createElement("link");
         styleCSS.rel = "stylesheet";
-        styleCSS.href = "styleLog.css";
+        styleCSS.href = "style.css";
         newWindow.document.head.appendChild(styleCSS);
     
         let form = newWindow.document.createElement("form");
@@ -90,13 +91,15 @@ buttons[1].addEventListener('click', function () {
     
         form.addEventListener("submit", function(event) {
             event.preventDefault();
-    
+            let div = document.createElement('div');
+            div.classList = "commento";
+
             let p = document.createElement('p');
-            p.classList = "commento";
             p.textContent = commento.value;
     
-            documento.body.appendChild(p);
-    
+            div.appendChild(p);
+            document.body.appendChild(div);
+
             newWindow.close();
         });
     }
