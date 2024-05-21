@@ -38,15 +38,18 @@
 .product-title {
     font-size: 1.2em;
     margin-bottom: 10px;
+    text-align: center;
 }
 .product-price {
     color: #28a745;
     font-size: 1.1em;
     margin-bottom: 10px;
+    padding-left: 10%;
 }
 .product-description {
     font-size: 0.9em;
     margin-bottom: 15px;
+    padding: 10%;
 }
 .btn {
     display: inline-block;

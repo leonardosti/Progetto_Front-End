@@ -1,7 +1,7 @@
 .nikeTitolo {
     position: relative;
     text-align: center;
-    padding: 15%;
+    padding: 10%;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('immagini/logoNike.png') center center;
     background-size: cover;
     color: #fff;
@@ -38,15 +38,18 @@
 .product-title {
     font-size: 1.2em;
     margin-bottom: 10px;
+    text-align: center;
 }
 .product-price {
     color: #28a745;
     font-size: 1.1em;
     margin-bottom: 10px;
+    padding-left: 10%;
 }
 .product-description {
     font-size: 0.9em;
     margin-bottom: 15px;
+    padding: 10%;
 }
 .btn {
     display: inline-block;
