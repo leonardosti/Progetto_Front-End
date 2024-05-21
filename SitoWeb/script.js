@@ -68,7 +68,12 @@ commentBtn.addEventListener('click', function () {
         let styleCSS = newWindow.document.createElement("link");
         styleCSS.rel = "stylesheet";
         styleCSS.href = "style.css";
+
+let styleComment = newWindow.document.createElement("link");
+        styleComment.rel = "stylesheet";
+        styleComment.href = "styleLog.css";
         newWindow.document.head.appendChild(styleCSS);
+newWindow.document.head.appendChild(styleComment);
     
         let form = newWindow.document.createElement("form");
         form.classList = "container";
