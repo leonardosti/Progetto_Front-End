@@ -1,0 +1,66 @@
+.adidasTitolo {
+    position: relative;
+    text-align: center;
+    padding: 10%;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)), url('immagini/Adidas-Logo.png') center center;
+    background-size: cover;
+    color: #fff;
+  }
+  .adidasTitolo .title {
+    font-size: 300%;
+    position: relative;
+    z-index: 1;
+  }
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product {
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.product img {
+    width: 100%;
+    border-bottom: 1px solid #dee2e6;
+}
+.product-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.product-price {
+    color: #28a745;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 10%;
+}
+.product-description {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    padding: 10%;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: #0056b3;
+}
