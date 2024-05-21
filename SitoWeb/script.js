@@ -99,6 +99,8 @@ commentBtn.addEventListener('click', function () {
     
             div.appendChild(p);
             document.body.appendChild(div);
+            var recensioniElement = document.querySelector('.recensioni');
+            recensioniElement.appendChild(div);
 
             newWindow.close();
         });
